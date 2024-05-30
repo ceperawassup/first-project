@@ -59,9 +59,13 @@ HEAD -- это голова.
 Статусы файлов:
 <тут пустая строка!>
 
-
 ```mermaid
+graph LR;
+   untracked -- "git add" --> staged;
+   staged    -- "???"     --> tracked/comitted;
+
 %% описание схемы
+   А --> B;
 ```
 
 <и тут пустая строка!> 
